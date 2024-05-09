@@ -1,7 +1,19 @@
-
+.Navigation-Option::after{
+    display: none;
+    content: '';
+    width: 15rem;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+}
+.Navigation-Option:hover::after{
+    display: block;
+}
 .group-Banner{
-    background-image: url(/img/ThucUongBanner.jpg);
-    background-size: contain;
+    background-image: url('https://phuclong.com.vn/uploads/category/e8c5aa134647b8-bannerkv.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 30rem;
 }
@@ -403,6 +415,7 @@ h5{
         position: absolute;
         left: 1rem;
         top: 3.1em;
+        border: 1px solid rgb(184, 184, 184);
     }
 
     #showSanPham {

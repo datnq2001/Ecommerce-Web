@@ -1,3 +1,29 @@
+.Navigation-Option::after{
+    display: none;
+    content: '';
+    width: 15rem;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+}
+.Navigation-Option:hover::after{
+    display: block;
+}
+.AddCart::after{
+    display: none;
+    content: '';
+    width: 25rem;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+}
+.AddCart:hover::after{
+    display: block;
+}
 body{
     margin: 0;
     padding: 0;
@@ -21,7 +47,7 @@ body{
 }
 
 .Group-Navigator{
-    padding: 0.8rem 0;
+    padding: 0.1rem 0;
     opacity: 0;
 }
 
@@ -106,6 +132,7 @@ body{
     padding: 2.5rem 1rem;
     background-color: #ffffff;
     z-index: 999;
+    border: 1px solid #0C713D;
 }
 
 .group-AddCart .group-AddCartHover .AddCart:hover .sub-Cart{
@@ -202,7 +229,7 @@ body{
     display: none;
     position: absolute;
     left: -2rem;
-    top: 2.5rem;
+    top: 3.5rem;
     box-shadow: 4px 4px 4px rgb(172, 172, 172), -1px 4px 4px rgb(172, 172, 172);
     padding: 0;
 }

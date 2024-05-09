@@ -1,3 +1,30 @@
+
+.Navigation-Option::after{
+    display: none;
+    content: '';
+    width: 15rem;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+}
+.Navigation-Option:hover::after{
+    display: block;
+}
+.AddCart::after{
+    display: none;
+    content: '';
+    width: 25rem;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+}
+.AddCart:hover::after{
+    display: block;
+}
 .container-navbar{
     display: none;
 }
@@ -8,6 +35,9 @@
     background-repeat: no-repeat;
     height: 37rem;
     width: 100%;
+}
+.group-Banner--tea{
+    background-image: url('https://phuclong.com.vn/uploads/page/82e981809668de-trphclong5.jpg');
 }
 
 .group-Banner{

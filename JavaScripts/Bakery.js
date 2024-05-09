@@ -22,22 +22,22 @@ DomID('btn-SearchSanPham').addEventListener('click', () => {
 
 // -------------------------Bakery---------------------------------------------//
 var Bakery = [
-  { name: 'Mức Đác Thơm', price: 29000, img: './img/ImgThucUong/Bakery1.png', id: 'clickMua1', reMove: 'clickXoa1', count: 1 },
-  { name: 'Mức Đác Cam', price: 29000, img: './img/ImgThucUong/Bakery2.png', id: 'clickMua2', reMove: 'clickXoa2', count: 1 },
-  { name: 'Choco Coco Brownie', price: 28000, img: './img/ImgThucUong/Bakery3.png', id: 'clickMua3', reMove: 'clickXoa3', count: 1 },
-  { name: 'Panna Cotta Strawberry', price: 38000, img: './img/ImgThucUong/Bakery4.png', id: 'clickMua4', reMove: 'clickXoa4', count: 1  },
-  { name: 'Green Tea Chocolate Mini', price: 32000, img: './img/ImgThucUong/Bakery5.jpg', id: 'clickMua5', reMove: 'clickXoa5', count: 1  },
-  { name: 'Apple Danish', price: 17000, img: './img/ImgThucUong/Bakery6.jpg', id: 'clickMua6', reMove: 'clickXoa6', count: 1  },
-  { name: 'Raisin Danish', price: 17000, img: './img/ImgThucUong/Bakery7.jpg', id: 'clickMua7', reMove: 'clickXoa7', count: 1  },
-  { name: 'Chocolate Mousse', price: 28000, img: './img/ImgThucUong/Bakery8.png', id: 'clickMua8', reMove: 'clickXoa8', count: 1  },
-  { name: 'Layer Red Fruit Cake', price: 49000, img: './img/ImgThucUong/Bakery9.png', id: 'clickMua9', reMove: 'clickXoa9', count: 1  },
-  { name: 'Butter Chocolate Croissant', price: 17000, img: './img/ImgThucUong/Bakery10.jpg', id: 'clickMua10', reMove: 'clickXoa10', count: 1  },
-  { name: 'Pure Butter Croissant', price: 20000, img: './img/ImgThucUong/Bakery11.jpg', id: 'clickMua11', reMove: 'clickXoa11', count: 1  },
-  { name: 'Tiramisu Pax', price: 47000, img: './img/ImgThucUong/Bakery12.jpg', id: 'clickMua12', idDreMoveelete: 'clickXoa12', count: 1  },
-  { name: 'Passion Cheese Pax', price: 32000, img: './img/ImgThucUong/Bakery13.jpg', id: 'clickMua13', reMove: 'clickXoa13' },
-  { name: 'Green Tea Choco Cake', price: 35000, img: './img/ImgThucUong/Bakery14.png', id: 'clickMua14', reMove: 'clickXoa14', count: 1 },
-  { name: 'Passion Panna Cotta', price: 29000, img: './img/ImgThucUong/Bakery15.png', id: 'clickMua15', reMove: 'clickXoa15', count: 1 },
-  { name: 'Tiramisu Mini', price: 25000, img: './img/ImgThucUong/Bakery16.png', id: 'clickMua16', reMove: 'clickXoa16', count: 1 },
+  { name: 'Mức Đác Thơm', price: 8.00, img: './img/ImgThucUong/Bakery1.png', id: 'clickMua1', reMove: 'clickXoa1', count: 1 },
+  { name: 'Mức Đác Cam', price: 8.00, img: './img/ImgThucUong/Bakery2.png', id: 'clickMua2', reMove: 'clickXoa2', count: 1 },
+  { name: 'Choco Coco Brownie', price: 15.00, img: './img/ImgThucUong/Bakery3.png', id: 'clickMua3', reMove: 'clickXoa3', count: 1 },
+  { name: 'Panna Cotta Strawberry', price: 8.00, img: './img/ImgThucUong/Bakery4.png', id: 'clickMua4', reMove: 'clickXoa4', count: 1  },
+  { name: 'Green Tea Chocolate Mini', price: 15.00, img: './img/ImgThucUong/Bakery5.jpg', id: 'clickMua5', reMove: 'clickXoa5', count: 1  },
+  { name: 'Apple Danish', price: 6.50, img: './img/ImgThucUong/Bakery6.jpg', id: 'clickMua6', reMove: 'clickXoa6', count: 1  },
+  { name: 'Raisin Danish', price: 6.50, img: './img/ImgThucUong/Bakery7.jpg', id: 'clickMua7', reMove: 'clickXoa7', count: 1  },
+  { name: 'Chocolate Mousse', price: 15.00, img: './img/ImgThucUong/Bakery8.png', id: 'clickMua8', reMove: 'clickXoa8', count: 1  },
+  { name: 'Layer Red Fruit Cake', price: 18.00, img: './img/ImgThucUong/Bakery9.png', id: 'clickMua9', reMove: 'clickXoa9', count: 1  },
+  { name: 'Butter Chocolate Croissant', price: 6.50, img: './img/ImgThucUong/Bakery10.jpg', id: 'clickMua10', reMove: 'clickXoa10', count: 1  },
+  { name: 'Pure Butter Croissant', price: 6.50, img: './img/ImgThucUong/Bakery11.jpg', id: 'clickMua11', reMove: 'clickXoa11', count: 1  },
+  { name: 'Tiramisu Pax', price: 20.00, img: './img/ImgThucUong/Bakery12.jpg', id: 'clickMua12', idDreMoveelete: 'clickXoa12', count: 1  },
+  { name: 'Passion Cheese Pax', price: 20.00, img: './img/ImgThucUong/Bakery13.jpg', id: 'clickMua13', reMove: 'clickXoa13' },
+  { name: 'Green Tea Choco Cake', price: 20.00, img: './img/ImgThucUong/Bakery14.png', id: 'clickMua14', reMove: 'clickXoa14', count: 1 },
+  { name: 'Passion Panna Cotta', price: 8.00, img: './img/ImgThucUong/Bakery15.png', id: 'clickMua15', reMove: 'clickXoa15', count: 1 },
+  { name: 'Tiramisu Mini', price: 10.00, img: './img/ImgThucUong/Bakery16.png', id: 'clickMua16', reMove: 'clickXoa16', count: 1 },
 ];
 
 
@@ -50,8 +50,8 @@ function render(Values) {
       var arrSanPhamShow = [];
       for (let v of Values) {
         let str = '<div class="Col-SanPham"><div class="Card" id="Card"><img class="card-img-top" src="' + v.img + '" alt="">' +
-        '<div class="card-body"><h5 class="card-title">' + v.name + '</h5><p class="card-text">' + v.price + 'đ</p>' +
-        '<div><a id="' + v.id + '" type="submit" class="btnDatHang">Đặt Hàng</a></div></div></div></div>'
+        '<div class="card-body"><h5 class="card-title">' + v.name + '</h5><p class="card-text">' + v.price + ' AUD</p>' +
+        '<div><a id="' + v.id + '" type="submit" class="btnDatHang">BUY</a></div></div></div></div>'
         arrSanPhamShow.push(str);
       }
 
@@ -156,7 +156,7 @@ var arrShowDetail = [];
 
   // -----Total Money-----//
   var totalMoney = 0;
-  DomID('TotalMoney').innerHTML = totalMoney + 'đ';
+  DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
   // -----Total Money-----//
 
 
@@ -170,7 +170,7 @@ if(localStorage.getItem('sanPhamMua') !== null) {
   DomID('countStore').innerHTML = countCard;
 
   totalMoney = arrShowDetail.reduce((sum, e) => sum += e.price * e.count, 0);
-  DomID('TotalMoney').innerHTML = totalMoney + 'đ';
+  DomID('TotalMoney').innerHTML = totalMoney + 'AUD';
 }
 
 
@@ -181,7 +181,7 @@ function clickMuaSanPham(idCheck, arr){
 
     // -----Cộng Total Money-----//
     totalMoney += checkedSanPham.price;
-    DomID('TotalMoney').innerHTML = totalMoney + 'đ';
+    DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
     // -----Cộng Total Money-----//
 
     if (arr.length > 0) {
@@ -266,7 +266,7 @@ function renderShowCard(Values) {
   var arrAddCard = [];
   for (let v of Values) {
     let str = '<li class="show-SanPham"><img src="' + v.img + '" alt=""><div class="showDetail-SanPham"><h4>' +
-      v.name + '</h4><div class="flex-CountSanPham"><p>'+ v.count +'</p><p>x</p><p>' + v.price + 'đ</p></div></div><a id="' + v.reMove + '">x</a></li>';
+      v.name + '</h4><div class="flex-CountSanPham"><p>'+ v.count +'</p><p>x</p><p>' + v.price + ' AUD</p></div></div><a id="' + v.reMove + '">x</a></li>';
     arrAddCard.push(str);
   }
 
@@ -288,7 +288,7 @@ function renderRemove() {
 
         // -----Trừ Total Money-----//
         totalMoney = totalMoney - findID.price * findID.count;
-        DomID('TotalMoney').innerHTML = totalMoney + 'đ';
+        DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
         // -----Trừ Total Money-----//
         
         for (let v of arrShowDetail) {

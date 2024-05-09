@@ -1,46 +1,46 @@
 var Tra = [
-    { name: 'trà sen túi lọc', price: 13, desc: '2g x 8 gói', img: 'https://phuclong.com.vn/uploads/dish/2b93a26ac51710-trasentuilocphuclonghop8goi.jpg', count: 1 },
-    { name: 'trà lài túi lọc', price: 12, desc: '2g x 8 gói', img: 'https://phuclong.com.vn/uploads/dish/409dfd65de47e1-tralaituilocphuclonghop8goi.jpg', count: 1 },
-    { name: 'trà xanh vạn lý hương', price: 20, desc: '80g', img: 'https://phuclong.com.vn/uploads/dish/5bd6d66932dfc1-trxanhvnlhngphclong.png', count: 1 },
-    { name: 'Trà Hoa Hồng Túi Lọc', price: 34, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/925ad83267c519-trhoahongtilcphclong.png', count: 1 },
-    { name: 'trà vãi túi lọc', price: 37, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/925ad83267c519-trhoahongtilcphclong.png', count: 1 },
-    { name: 'trà xanh thái nguyên', price: 29, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/1d88363528e16b-txtn500g.jpg', count: 1 },
-    { name: 'trà sen túi lọc', price: 35, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/1fdc7a610e0c86-trsentilcphclong.png', count: 1 },
-    { name: 'trà xanh 15', price: 145, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/b651a8b758f713-traxanh15phuclong.jpg', count: 1 },
-    { name: 'trà xanh thái nguyên', price: 266, desc: '1kg', img: 'https://phuclong.com.vn/uploads/dish/c578d3fe9de6c8-cphdaxayvthch.jpg', count: 1 },
-    { name: 'trà sen túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/aa48790b50dc65-trsentitamgicphclong.png', count: 1 },
-    { name: 'hồng trà túi lọc', price: 35, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/7ea152f86c543b-hngtrtilcphclong.png', count: 1 },
-    { name: 'trà xanh 15', price: 60, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/e34e10d6d175f0-traxanh15phuclong.jpg', count: 1 },
-    { name: 'trà ô long 80', price: 151, desc: '150g', img: 'https://phuclong.com.vn/uploads/dish/da8b029cb3691c-tpolo018tragoiolong.png', count: 1 },
-    { name: 'trà xanh thái nguyên', price: 127, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/124371b7a18869-txtn500g.jpg', count: 1 },
-    { name: 'trà lài túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/5b668796fecc3b-trlititamgicphclong.png', count: 1 },
-    { name: 'trà xanh túi lọc', price: 29, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/4da70ef7a21ed3-trxanhtilcphclong.png', count: 1 },
-    { name: 'trà lài đặc biệt', price: 79, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/72ba38655c9817-tralaidacbietphuclong.jpg', count: 1 },
-    { name: 'trà xanh 15', price: 30, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/2c4d8af85eb376-traxanh15phuclong.jpg', count: 1 },
-    { name: 'trà xanh thái nguyên', price: 52, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/a697a97718dfb9-txtn200g.jpg', count: 1 },
-    { name: 'trà xanh đặc biệt (mẫu lá tre)', price: 229, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/b71094067c35ef-trxanhcbitmultre.png', count: 1 },
-    { name: 'trà lài hộp giấy', price: 110, desc: '250g', img: 'https://phuclong.com.vn/uploads/dish/b4ece40277dc79-trlihpgiyphclong.png', count: 1 },
-    { name: 'trà xanh túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/589293b7f53540-trxanhtitamgicphclong.png', count: 1 },
-    { name: 'trà ô long túi lọc', price: 36, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/0c65edda13706b-trlongtilcphclong.png', count: 1 },
-    { name: 'trà sen đặc biệt', price: 385, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/495fccb5d1f59b-trasendacbietphuclong.jpg', count: 1 },
-    { name: 'trà xanh tân cương đặc biệt', price: 250, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/3b2308a50c5f0f-traxanhtancuongdacbietphuclong.jpg', count: 1 },
-    { name: 'trà lài 15', price: 240, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/ac42d17a7da7e5-tralai15phuclong.jpg', count: 1 },
-    { name: 'trà đen', price: 27, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/affeae10bb3a06-traden.png', count: 1 },
-    { name: 'trà xanh thái nguyên phúc long', price: 34, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/1bb863604bba2a-trxanhthinguynphclong.png', count: 1 },
-    { name: 'trà lài lon giấy cao cấp', price: 70, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/4e4430e181d510-trlilongiycaocpphclong.png', count: 1 },
-    { name: 'trà sen hộp giấy', price: 72, desc: '150g', img: 'https://phuclong.com.vn/uploads/dish/56676ff02bcac2-trsenhpgiyphclong.png', count: 1 },
-    { name: 'trà lài vạn lý hương', price: 21, desc: '80g', img: 'https://phuclong.com.vn/uploads/dish/1236194f37e045-trlivnlhngphclong.png', count: 1 },
-    { name: 'trà ô long túi tam giác', price: 87, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/cafe33c3bb40d5-trlongtitamgicphclong.png', count: 1 },
-    { name: 'trà đào túi lọc', price: 37, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/9224ead04db9af-trotilcphclong.png', count: 1 },
-    { name: 'trà nõn tôm ủ lạnh túi tam giác', price: 129, desc: '2g x 12 túi', img: 'https://phuclong.com.vn/uploads/dish/1f9912a11f07df-traulanhnontomphuclong.png', count: 1 },
-    { name: 'trà lài ủ lạnh túi tam giác', price: 109, desc: '2g x 12 túi', img: 'https://phuclong.com.vn/uploads/dish/73ce7137231a5f-tuizipjasmine.png', count: 1 },
-    { name: 'trà sen đặc biệt', price: 156, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/4047cc1c864d7b-tralaidacbietphuclong.jpg', count: 1 },
-    { name: 'trà xanh tân cương đặc biệt', price: 102, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/d171954f6fb40a-traxanhtancuongdacbietphuclong.jpg', count: 1 },
-    { name: 'trà sen lon giấy cao cấp', price: 70, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/522d6d98733774-trsenlongiycaocpphclong.png', count: 1 },
-    { name: 'trà lài vạn lý hương (lon)', price: 39, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/84615da23e6ddc-vlhlon.png', count: 1 },
-    { name: 'hộp giấy vuông 5 loại trà', price: 540, desc: '24g x 10 hộp', img: 'https://phuclong.com.vn/uploads/dish/faead9badf4460-tpgiv002hopgiayvuong5loaitra.png', count: 1 },
-    { name: 'trà ô long hộp oval', price: 135, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/077de7d121bfc1-trlonghpovalphclong.png', count: 1 },
-    { name: 'trà xanh lon giấy cao cấp', price: 50, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/ad72634e34caba-trxanhlongiycaocpphclong.png', count: 1 },
+    { name: 'tea sen túi lọc', price: 13, desc: '2g x 8 gói', img: 'https://phuclong.com.vn/uploads/dish/2b93a26ac51710-trasentuilocphuclonghop8goi.jpg', count: 1 },
+    { name: 'tea lài túi lọc', price: 12, desc: '2g x 8 gói', img: 'https://phuclong.com.vn/uploads/dish/409dfd65de47e1-tralaituilocphuclonghop8goi.jpg', count: 1 },
+    { name: 'tea xanh vạn lý hương', price: 20, desc: '80g', img: 'https://phuclong.com.vn/uploads/dish/5bd6d66932dfc1-trxanhvnlhngphclong.png', count: 1 },
+    { name: 'tea Hoa Hồng Túi Lọc', price: 34, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/925ad83267c519-trhoahongtilcphclong.png', count: 1 },
+    { name: 'tea vãi túi lọc', price: 37, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/925ad83267c519-trhoahongtilcphclong.png', count: 1 },
+    { name: 'tea xanh thái nguyên', price: 29, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/1d88363528e16b-txtn500g.jpg', count: 1 },
+    { name: 'tea sen túi lọc', price: 35, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/1fdc7a610e0c86-trsentilcphclong.png', count: 1 },
+    { name: 'tea xanh 15', price: 145, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/b651a8b758f713-traxanh15phuclong.jpg', count: 1 },
+    { name: 'tea xanh thái nguyên', price: 266, desc: '1kg', img: 'https://phuclong.com.vn/uploads/dish/c578d3fe9de6c8-cphdaxayvthch.jpg', count: 1 },
+    { name: 'tea sen túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/aa48790b50dc65-trsentitamgicphclong.png', count: 1 },
+    { name: 'hồng tea túi lọc', price: 35, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/7ea152f86c543b-hngtrtilcphclong.png', count: 1 },
+    { name: 'tea xanh 15', price: 60, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/e34e10d6d175f0-traxanh15phuclong.jpg', count: 1 },
+    { name: 'tea ô long 80', price: 151, desc: '150g', img: 'https://phuclong.com.vn/uploads/dish/da8b029cb3691c-tpolo018tragoiolong.png', count: 1 },
+    { name: 'tea xanh thái nguyên', price: 127, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/124371b7a18869-txtn500g.jpg', count: 1 },
+    { name: 'tea lài túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/5b668796fecc3b-trlititamgicphclong.png', count: 1 },
+    { name: 'tea xanh túi lọc', price: 29, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/4da70ef7a21ed3-trxanhtilcphclong.png', count: 1 },
+    { name: 'tea lài đặc biệt', price: 79, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/72ba38655c9817-tralaidacbietphuclong.jpg', count: 1 },
+    { name: 'tea xanh 15', price: 30, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/2c4d8af85eb376-traxanh15phuclong.jpg', count: 1 },
+    { name: 'tea xanh thái nguyên', price: 52, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/a697a97718dfb9-txtn200g.jpg', count: 1 },
+    { name: 'tea xanh đặc biệt (mẫu lá tre)', price: 229, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/b71094067c35ef-trxanhcbitmultre.png', count: 1 },
+    { name: 'tea lài hộp giấy', price: 110, desc: '250g', img: 'https://phuclong.com.vn/uploads/dish/b4ece40277dc79-trlihpgiyphclong.png', count: 1 },
+    { name: 'tea xanh túi tam giác', price: 76, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/589293b7f53540-trxanhtitamgicphclong.png', count: 1 },
+    { name: 'tea ô long túi lọc', price: 36, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/0c65edda13706b-trlongtilcphclong.png', count: 1 },
+    { name: 'tea sen đặc biệt', price: 385, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/495fccb5d1f59b-trasendacbietphuclong.jpg', count: 1 },
+    { name: 'tea xanh tân cương đặc biệt', price: 250, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/3b2308a50c5f0f-traxanhtancuongdacbietphuclong.jpg', count: 1 },
+    { name: 'tea lài 15', price: 240, desc: '500g', img: 'https://phuclong.com.vn/uploads/dish/ac42d17a7da7e5-tralai15phuclong.jpg', count: 1 },
+    { name: 'tea đen', price: 27, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/affeae10bb3a06-traden.png', count: 1 },
+    { name: 'tea xanh thái nguyên phúc long', price: 34, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/1bb863604bba2a-trxanhthinguynphclong.png', count: 1 },
+    { name: 'tea lài lon giấy cao cấp', price: 70, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/4e4430e181d510-trlilongiycaocpphclong.png', count: 1 },
+    { name: 'tea sen hộp giấy', price: 72, desc: '150g', img: 'https://phuclong.com.vn/uploads/dish/56676ff02bcac2-trsenhpgiyphclong.png', count: 1 },
+    { name: 'tea lài vạn lý hương', price: 21, desc: '80g', img: 'https://phuclong.com.vn/uploads/dish/1236194f37e045-trlivnlhngphclong.png', count: 1 },
+    { name: 'tea ô long túi tam giác', price: 87, desc: '3g x 10 gói', img: 'https://phuclong.com.vn/uploads/dish/cafe33c3bb40d5-trlongtitamgicphclong.png', count: 1 },
+    { name: 'tea đào túi lọc', price: 37, desc: '2g x 25 gói', img: 'https://phuclong.com.vn/uploads/dish/9224ead04db9af-trotilcphclong.png', count: 1 },
+    { name: 'tea nõn tôm ủ lạnh túi tam giác', price: 129, desc: '2g x 12 túi', img: 'https://phuclong.com.vn/uploads/dish/1f9912a11f07df-traulanhnontomphuclong.png', count: 1 },
+    { name: 'tea lài ủ lạnh túi tam giác', price: 109, desc: '2g x 12 túi', img: 'https://phuclong.com.vn/uploads/dish/73ce7137231a5f-tuizipjasmine.png', count: 1 },
+    { name: 'tea sen đặc biệt', price: 156, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/4047cc1c864d7b-tralaidacbietphuclong.jpg', count: 1 },
+    { name: 'tea xanh tân cương đặc biệt', price: 102, desc: '200g', img: 'https://phuclong.com.vn/uploads/dish/d171954f6fb40a-traxanhtancuongdacbietphuclong.jpg', count: 1 },
+    { name: 'tea sen lon giấy cao cấp', price: 70, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/522d6d98733774-trsenlongiycaocpphclong.png', count: 1 },
+    { name: 'tea lài vạn lý hương (lon)', price: 39, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/84615da23e6ddc-vlhlon.png', count: 1 },
+    { name: 'hộp giấy vuông 5 loại tea', price: 540, desc: '24g x 10 hộp', img: 'https://phuclong.com.vn/uploads/dish/faead9badf4460-tpgiv002hopgiayvuong5loaitra.png', count: 1 },
+    { name: 'tea ô long hộp oval', price: 135, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/077de7d121bfc1-trlonghpovalphclong.png', count: 1 },
+    { name: 'tea xanh lon giấy cao cấp', price: 50, desc: '100g', img: 'https://phuclong.com.vn/uploads/dish/ad72634e34caba-trxanhlongiycaocpphclong.png', count: 1 },
 ];
 function DomID(id) {
     return document.getElementById(id);
@@ -54,7 +54,7 @@ function render(value) {
     for (let v of value) {
         let sanpham = '<div class="product"> <div class="product-img"><img src="' + v.img + '" alt=""></div>' +
             '<div class="product-title">' + v.name + '</div><div class="product-desc">' + v.desc + '</div><div class="product-price">' + v.price + '.000 đ</div>' +
-            '<div class="product-button"><input type="button" value="Đặt hàng" class="button-buy"> </div></div>';
+            '<div class="product-button"><input type="button" value="BUY" class="button-buy"> </div></div>';
         showSanPham.push(sanpham);
     }
     var renderHTML = showSanPham.join('');
@@ -119,7 +119,7 @@ DomID('timKiem').addEventListener('keyup', () => {
     }
 })
 var tongTien = 0;
-DomID('TotalMoney').innerHTML = tongTien + 'đ';
+DomID('TotalMoney').innerHTML = tongTien + ' AUD';
 if(localStorage.getItem('sanpham') !== null) {
     arrBuy = JSON.parse(localStorage.getItem('sanpham'));
     renderProductBuy(arrBuy);
@@ -129,9 +129,9 @@ if(localStorage.getItem('sanpham') !== null) {
     
     tongTien= arrBuy.reduce((sum, e)=>sum+=e.count*e.price,0);
     if (tongTien === 0) {
-        DomID('TotalMoney').innerHTML = tongTien + 'đ';
+        DomID('TotalMoney').innerHTML = tongTien + ' AUD';
     }
-    else DomID('TotalMoney').innerHTML = tongTien + '.000đ';
+    else DomID('TotalMoney').innerHTML = tongTien + ' AUD';
 }
 
 
@@ -162,9 +162,9 @@ function dathang(value) {
 function xoahang(n) {
     tongTien = tongTien - arrBuy[n].price * arrBuy[n].count;
     if (tongTien === 0) {
-        DomID('TotalMoney').innerHTML = tongTien + 'đ';
+        DomID('TotalMoney').innerHTML = tongTien + ' AUD';
     }
-    else DomID('TotalMoney').innerHTML = tongTien + '.000đ';
+    else DomID('TotalMoney').innerHTML = tongTien + ' AUD';
     arrBuy[n].count = 1;
     arrBuy.splice(n, 1);
     renderProductBuy(arrBuy);
@@ -178,7 +178,7 @@ function renderProductBuy(value) {
             '"alt=><div class="buy-title"><h4>' + value[i].name + ' (' + value[i].desc +
             ')</h4></div><input type="text" value="' + value[i].count +
             '" class="qual-buy" disabled><div class="buy-price"><p>x ' + value[i].price +
-            '.000đ</p></div><a class="delete" onclick="xoahang(' + i + ')">x</a>"</li>';
+            ' AUD</p></div><a class="delete" onclick="xoahang(' + i + ')">x</a></li>';
         count += Number(value[i].count);
     }
     DomID('countStore').innerHTML = count;
