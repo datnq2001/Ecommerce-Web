@@ -32,7 +32,7 @@
 
 .positionBanner{
     position: absolute;
-    top: 0;
+    top: 70px;
     left: 0;
     cursor: pointer;
 }
@@ -245,11 +245,12 @@ select option{
 
 /* ---------------------------------------Show Sản Phẩm--------------------------------------- */
 
-#countStore{
+#countStore {
     background-color: #0C713D;
     color: #ffffff;
-    padding: .17rem .35rem;
+    padding: .1rem .35rem;
     border-radius: 50%;
+    margin-left: 2px;
 }
 
 .show-SanPham img{

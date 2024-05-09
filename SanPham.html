@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
     <!-- Fonts -->
@@ -22,9 +23,8 @@
     <link rel="stylesheet" href="./Asset/Navigation_Footer.css">
     <link rel="stylesheet" href="./Asset/NavBar.css">
 
-    <title>Sản Phẩm</title>
+    <title>Product</title>
 </head>
-
 <body onscroll="myFunction()">
     <div class="Container">
         <div class="Wrapper">
@@ -36,15 +36,16 @@
                     <img class="img-LogoBottom position" style="width: 100px; height: 65px;" src="./img/Logo4.png"
                         alt="">
                     <div class="group-AddCart">
-                        <a class="btn-Login" href="Login.html">Đăng Nhập</a>
+                        <a class="btn-Login" href="Login.html">Sign In</a>
                         <p class="space_Login-Cart">|</p>
                         <div class="group-AddCartHover">
-                            <div class="AddCart">Giỏ Hàng: <i class='fas fa-cart-arrow-down'
-                                    style='font-size:15px'></i><sup id="countStore"></sup>
+                            <div class="AddCart">Cart: 
+                                <i class='fas fa-cart-arrow-down' style='font-size:15px'></i>
+                                <sup id="countStore"></sup>
                                 <ul class="sub-Cart">
                                     <li class="Detail">
-                                        <a>Giỏ Hàng Của Bạn</a>
-                                        <a href="#">Xem Chi Tiết</a>
+                                        <a>Your Cart</a>
+                                        <a href="#">View Details</a>
                                     </li>
                                     <div id="showSanPham">
                                         <!-- <li class="show-SanPham">
@@ -60,12 +61,12 @@
                                             <a id="XoaSanPham">x</a>
                                         </li> -->
                                     </div>
-                                    <li class="TotalMoney" style="font-weight: bold; ">Tổng Tiền: 
+                                    <li class="TotalMoney" style="font-weight: bold; ">Total Money: 
                                         <span id="TotalMoney"
                                             style="font-size: 1.5rem; color: rgb(255, 65, 65);">
                                         </span>
                                     </li>
-                                    <li class="buyProduct"><a href="#">Thanh Toán</a></li>
+                                    <li class="buyProduct"><a href="#">Checkout</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -73,47 +74,45 @@
                 </div>
                 <div class="Group-Navigator" id="GroupNavigator">
                     <ul class="Navigation" id="Navigation">
-                        <li class="Navigation-Option"><a href="index.html" class="items">Trang Chủ</a></li>
+                        <li class="Navigation-Option"><a href="index.html" class="items">Home</a></li>
                         <li class="Navigation-Option">
-                            <a href="HatCoffee.html" id="hatCoffee" class="items">Cà Phê</a>
+                            <a href="HatCoffee.html" id="hatCoffee" class="items">Coffee</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="HatCoffeeDamVi.html" class="sub-items">Hành Trình Tách Cà Phê
-                                        Đậm Vị</a></li>
-                                <li class="sub-Navigation-Option"><a href="HatCoffee.html" class="sub-items">Hạt Cà Phê Phúc Long</a>
+                                <li class="sub-Navigation-Option"><a href="HatCoffeeDamVi.html" class="sub-items">Journey of Bold Coffee</a></li>
+                                <li class="sub-Navigation-Option"><a href="HatCoffee.html" class="sub-items">Phuc Long Coffee Beans</a>
                                 </li>
-                                <li class="sub-Navigation-Option"><a href="HatCoffeePhaChe.html" class="sub-items">Nghệ Thuật Pha Chế</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="Navigation-Option">
-                            <a href="TraTruyenThong.html" class="items">Trà</a>
-                            <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="TraTruyenThong.html" class="sub-items">Hành Trình Tách Cà Phê
-                                        Đậm Vị</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Lá Trà Phúc Long</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Nghệ Thuật Pha Chế</a>
+                                <li class="sub-Navigation-Option"><a href="HatCoffeePhaChe.html" class="sub-items">Art of Brewing</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="Navigation-Option">
-                            <a href="" id="thucUong" class="items">Thứ Uống</a>
+                            <a href="TraTruyenThong.html" class="items">Tea</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="ThucUong.html" class="sub-items">Thức Uống</a></li>
-                                <li class="sub-Navigation-Option"><a href="BanhTrangMieng.html" class="sub-items">Bánh Tráng Miệng</a></li>
+                                <li class="sub-Navigation-Option"><a href="TraTruyenThong.html" class="sub-items">Journey of Bold Tea</a></li>
+                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Phuc Long Tea Leaves</a></li>
+                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Art of Brewing</a>
+                                </li>
                             </ul>
                         </li>
-                        <li class="Navigation-Option"><a href="SanPham.html" class="items">Sản Phẩm</a>
+                        <li class="Navigation-Option">
+                            <a href="ThucUong.html" id="thucUong" class="items">Drink</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="Tra.html" class="sub-items">Trà</a></li>
-                                <li class="sub-Navigation-Option"><a href="CaPhe.html" class="sub-items">Cà Phê</a></li>
+                                <li class="sub-Navigation-Option"><a href="ThucUong.html" class="sub-items">Drink</a></li>
+                                <li class="sub-Navigation-Option"><a href="BanhTrangMieng.html" class="sub-items">Dessert</a></li>
                             </ul>
                         </li>
-                        <li class="Navigation-Option"><a href="KhuyenMai.html" class="items">Khuyến Mãi</a></li>
-                        <li class="Navigation-Option"><a href="VeChungToi.html" class="items">Về Chung Tôi</a>
+                        <li class="Navigation-Option"><a href="SanPham.html" class="items">Product</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="TuyenDung.html" class="sub-items">Tuyển Dụng</a></li>
-                                <li class="sub-Navigation-Option"><a href="ThuVien.html" class="sub-items">Thư Viện</a></li>
-                                <li class="sub-Navigation-Option"><a href="LienHe.html" class="sub-items">Liên Hệ</a></li>
+                                <li class="sub-Navigation-Option"><a href="Tra.html" class="sub-items">Tea</a></li>
+                                <li class="sub-Navigation-Option"><a href="CaPhe.html" class="sub-items">Coffee</a></li>
+                            </ul>
+                        </li>
+                        <li class="Navigation-Option"><a href="KhuyenMai.html" class="items">Promotion</a></li>
+                        <li class="Navigation-Option"><a href="VeChungToi.html" class="items">About Us</a>
+                            <ul class="sub-menu">
+                                <li class="sub-Navigation-Option"><a href="TuyenDung.html" class="sub-items">Recruitment</a></li>
+                                <li class="sub-Navigation-Option"><a href="ThuVien.html" class="sub-items">Library</a></li>
+                                <li class="sub-Navigation-Option"><a href="LienHe.html" class="sub-items">Contact</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -125,24 +124,24 @@
                     <a href="#"><img src="https://phuclong.com.vn/uploads/category/ea0148f488f121-ecpremium_1920x576.jpg"
                             class="banner" alt="" width="100%"></a>
                     <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li class="active"><a href="#">Sản phẩm</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">Product</a></li>
                     </ul>
                 </header>
-
+    
                 <section class="about-promotion">
                     <div class="wrapper">
                             <div style="text-align: center;">
-                                <div class="title-content">SẢN PHẨM</div>
+                                <div class="title-content">PRODUCT</div>
                             </div>
                             <div class="directIcon">
                                 <i class='fas fa-seedling' style='font-size:36px'></i>
                             </div>
                             <div style="text-align: center; margin-bottom: 100px;">
-                                <div class="option-title" onclick="PageImg(1)">TRÀ</div>
-                                <div class="option-title" onclick="PageImg(2)">CÀ PHÊ</div>
-                                <div class="option-title" onclick="PageImg(3)">BÁNH TRUNG THU</div>
-                                <div class="option-title" onclick="PageImg(4)">HỘP QUÀ TẾT</div>
+                                <div class="option-title" onclick="PageImg(1)">TEA</div>
+                                <div class="option-title" onclick="PageImg(2)">COFFEE</div>
+                                <div class="option-title" onclick="PageImg(3)">MOONCAKES</div>
+                                <div class="option-title" onclick="PageImg(4)">TET GIFT BOXES</div>
                             </div>
                             <div class="content">
                                 <div class="content-tra">
@@ -150,9 +149,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/034aa904ece252-trotilcphclong.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>Trà túi lọc</h1>
-                                        <div class="sub-content">Trà túi lọc tiện dụng được sản xuất theo công thức độc đáo, đảm bảo tận dụng hết tính năng của trà; cả về hương lẫn vị. Không phải tốn nhiều thời gian pha chế, chỉ sau vài phút là có ngay tách trà nóng thơm ngon với nhiều mùi hương đa dạng. Trà túi lọc mở ra phong cách thưởng thức trà hiện đại trong cuộc sống không ngừng phát triển và vươn cao.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Tea Bags</h1>
+                                        <div class="sub-content">Convenient tea bags produced according to a unique formula, ensuring to fully utilize the features of tea; both in aroma and taste. No need to spend much time brewing, just a few minutes and you have a hot fragrant tea with diverse flavors. Tea bags open up a modern way of enjoying tea in a continuously developing and thriving life.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -161,9 +160,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/a63cefd03f84fe-trlongtitamgicphclong.png" width="250px" height="250px" alt="">
                                     </div>
                                     <div class="left">
-                                        <h1>TRÀ TÚI TAM GIÁC</h1>
-                                        <div class="sub-content">Trà túi lọc tam giác (hay còn gọi là Trà túi lọc kim tự tháp) được xem là một bước tiến mới của dòng trà túi lọc khi được sản xuất và đóng gói theo công nghệ tiên tiến bậc nhất, tăng sự thẩm thấu của trà ra bên ngoài và gia tăng hương vị đậm đà, mang lại trải nghiệm trọn vẹn khi thưởng thức.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Triangle Tea Bags</h1>
+                                        <div class="sub-content">Triangle tea bags (also known as Pyramid Tea Bags) are seen as a new step of tea bag line when being produced and packaged according to the most advanced technology, increasing the permeability of tea to the outside and enhancing the rich flavor, providing a complete experience when enjoying.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                         <div class="clear-left"></div>
                                     </div>
                                 </div>
@@ -172,9 +171,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/6bc129830acafb-trxanhhpgiyphclong.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>TRÀ HỘP GIẤY</h1>
-                                        <div class="sub-content">Trà hộp giấy có bao bì hiện đại, gọn nhẹ và thuận tiện khi sử dụng. Trong mỗi hộp trà lưu giữ trọn vẹn hương vị đặc trưng của từng loại trà để từ đó pha chế nên những ly trà thơm ngon và đem lại nhiều lợi ích cho sứ khỏe.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Paper Box Tea</h1>
+                                        <div class="sub-content">Paper box tea has modern, compact and convenient packaging. In each box, it preserves the unique flavor of each type of tea to make delicious and beneficial cups of tea for health.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -183,9 +182,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/a5ae2d240c5e31-trlonghpovalphclong.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>TRÀ HỘP XÁM</h1>
-                                        <div class="sub-content">Trà hộp xám có thiết kế hình oval sang trọng và tiện lợi, với hương vị đặc trưng của những loại trà hảo hạng, thỏa mãn như cầu tinh tế của khách hàng.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Gray Box Tea</h1>
+                                        <div class="sub-content">Gray box tea has an elegant and convenient oval design, with the characteristic flavor of excellent teas, satisfying the sophisticated taste of customers.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -194,10 +193,10 @@
                                         <img src="https://phuclong.com.vn/uploads/category/93dd10cf34c0c9-05_web_sp_traxanhthainguyen.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>TRÀ THÁI NGUYÊN</h1>
-                                        <div class="sub-content">Là một thức uống đặc sản trong nền văn hóa trà của Việt Nam. Thái Nguyên được thiên nhiên ưu ái về vị trí địa lý và khí hậu nhiệt đới rất thích hợp cho việc trồng và phát triển cây trà. <br>
-                                            Trà Thái Nguyên từ xưa đến nay vẫn được gọi với tên gọi “Đệ nhất danh trà” bởi hương vị ngọt hậu lắng đọng vị giác, mang lại sự tươi trẻ và thư thái khi thưởng thức.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Thai Nguyen Tea</h1>
+                                        <div class="sub-content">As a specialty drink in Vietnamese tea culture. Thai Nguyen is favored by nature in terms of geographical location and tropical climate, very suitable for growing and developing tea trees. <br>
+                                            Thai Nguyen tea from ancient times to the present is still called “First-class famous tea” because of its lingering sweet taste, bringing youthfulness and relaxation when enjoyed.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -206,9 +205,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/dd0f6c1232fbe8-tpolo018tragoiolong.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>TRÀ GÓI CAO CẤP</h1>
-                                        <div class="sub-content">Trà gói lưu giữ hương vị tươi nguyên nhất của những lá trà hảo hạng, thích hợp để pha chế những ly trà đậm vị, thơm ngon và đem lại nhiều lợi ích cho sức khỏe khi cùng thưởng thức bên gia đình và người thân.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Premium Tea Bags</h1>
+                                        <div class="sub-content">Premium tea bags retain the freshest flavor of premium tea leaves, suitable for brewing flavorful, delicious teas and providing many health benefits when enjoyed with family and loved ones.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -217,9 +216,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/750d6f11ca7827-tpxan013xanh.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>TRÀ VẠN LÝ HƯƠNG</h1>
-                                        <div class="sub-content">Vị ngọt thanh và hương thơm tự nhiên của Trà Vạn Lý Hương làm gợi nhớ tới những vùng đất xa xôi nơi những chén trà là đầu câu chuyện, là gợi mở tâm linh, là giao thoa văn hóa và kết nối lòng người.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Van Ly Fragrant Tea</h1>
+                                        <div class="sub-content">The sweet taste and natural aroma of Van Ly Fragrant Tea remind of faraway lands where tea cups are the beginning of stories, opening up spirituality, cultural exchanges, and connecting people's hearts.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -228,9 +227,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/57bfb7fb544ce8-trenphclong.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>TRÀ ĐEN</h1>
-                                        <div class="sub-content">Trà đen là trà xanh khi thu hoạch và được ủ lên men sau khi phơi khô. Phản ứng lên men giúp trà đen có mùi thơm đặc biệt và lá trà có màu sậm, từ đỏ hung đến đen tuyền. Trà đen với hậu vị chát đậm, khi uống chất trà thấm vào cơ thể nhẹ nhàng đánh thức các giác quan, tạo tâm trạng sảng khoái.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Black Tea</h1>
+                                        <div class="sub-content">Black tea is green tea when harvested and fermented after drying. The fermentation process gives black tea a special aroma and dark-colored tea leaves, from reddish to deep black. Black tea with a strong bitter taste, when drunk, the tea substance gently stimulates the body's senses, creating a refreshing mood.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -239,9 +238,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/e8a1723ff95da0-cphmokacbphclong.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>CÀ PHÊ HẠT CÓ BƠ</h1>
-                                        <div class="sub-content">Trên hành trình tìm kiếm những hạt cà phê ngon nhất, Phúc Long luôn chú trọng bốn đặc tính từ trái cà phê nhằm tôn trọng nguyên bản cho tách cà phê đậm vị: Hương thơm cà phê, Thể chất - độ đậm đà, Acid - vị chua thanh và Hậu vị - vị cà phê còn đọng lại sau khi thưởng thức.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Coffee Beans with Butter</h1>
+                                        <div class="sub-content">On the journey to find the best coffee beans, Phuc Long always focuses on four characteristics from coffee beans to respect the original for a bold coffee cup: Coffee aroma, Body - intensity, Acid - sour taste and Aftertaste - coffee taste remains after tasting.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -250,9 +249,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/51ea83942dc85b-cphroyalkhngbphclong.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>CÀ PHÊ HẠT KHÔNG BƠ</h1>
-                                        <div class="sub-content">Trên hành trình tìm kiếm những hạt cà phê ngon nhất, Phúc Long luôn chú trọng bốn đặc tính từ trái cà phê nhằm tôn trọng nguyên bản cho tách cà phê đậm vị: Hương thơm cà phê, Thể chất - độ đậm đà, Acid - vị chua thanh và Hậu vị - vị cà phê còn đọng lại sau khi thưởng thức.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Coffee Beans without Butter</h1>
+                                        <div class="sub-content">On the journey to find the best coffee beans, Phuc Long always focuses on four characteristics from coffee beans to respect the original for a bold coffee cup: Coffee aroma, Body - intensity, Acid - sour taste and Aftertaste - coffee taste remains after tasting.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -261,9 +260,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/bfa6c773f180b0-songhao.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>BÁNH TRUNG THU HỘP 2 BÁNH</h1>
-                                        <div class="sub-content">Đêm Trung thu được ngồi thưởng trà, ngắm trăng, trò chuyện cùng bè bạn thì còn gì bằng? "Song Hảo" mang ý nghĩa trao tình cảm đến cho người yêu quý nhất, bộ đôi tuyệt vời nhất. Hộp bánh Song Hảo Trăng Rằm bao gồm 2 vị bánh thơm ngon đặc trưng và hộp trà Lài thơm ngát chính là món quà ý nghĩa, đáng để bạn lựa chọn trao tặng người bạn hoặc người thân thiết nhất dịp Trung Thu.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Mooncake Box 2 Cakes</h1>
+                                        <div class="sub-content">Mid-Autumn night sitting to enjoy tea, watching the moon, chatting with friends, what could be better? "Song Hao" carries the meaning of conveying emotions to the most beloved, the best duo. Song Hao Mid-Autumn Box includes 2 unique and fragrant cakes and a Lài tea box is a meaningful gift, worth choosing to give to your closest friend or loved one on Mid-Autumn Festival.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -272,9 +271,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/5f6a45e30d2826-mt.png" alt="">
                                     </div>                
                                     <div class="right">
-                                        <h1>BÁNH TRUNG THU HỘP 4 BÁNH</h1>
-                                        <div class="sub-content">Theo văn hóa phương Đông, số 4 (tứ) đại diện cho sự vững vàng, mạnh mẽ và ổn định, như bốn mùa trong trời đất, bốn hướng của tự nhiên. ​​ Hộp bánh Tứ Quý Trăng Rằm bao gồm 4 vị bánh thơm ngon đặc trưng và hộp trà Lài thơm ngát chính là món quà ý nghĩa, đáng để bạn lựa chọn trao tặng dịp Trung Thu.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Mooncake Box 4 Cakes</h1>
+                                        <div class="sub-content">According to Eastern culture, the number 4 (four) represents stability, strength, and stability, like the four seasons in heaven and earth, the four directions of nature. Mid-Autumn Box of Four Good Fortunes includes 4 unique and fragrant cakes and a Lài tea box is a meaningful gift, worth choosing to give on Mid-Autumn Festival.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -283,9 +282,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/93d74c62aaa866-lucbaohuongthu.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>BÁNH TRUNG THU HỘP 6 BÁNH</h1>
-                                        <div class="sub-content">Theo văn hóa phương Đông, số 6 (Lục) có phát âm gần giống với chữ "Lộc", tức là may mắn. Đây còn là con số tượng trưng cho sự vững mạnh, thể hiện những thuận lợi, tài lộc trong cuộc sống. Hộp bánh Lục Bảo Hương Thu bao gồm 6 vị bánh thơm ngon đặc trưng và hộp trà Ô-Long cao cấp cũng là những gì Phúc Long muốn gửi gắm, tin rằng món quà trao đi cũng chính là lời chúc may mắn, bình yên đến với những người yêu thương dịp Trung Thu này.</div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Mooncake Box 6 Cakes</h1>
+                                        <div class="sub-content">According to Eastern culture, the number 6 (Luc) has a pronunciation close to the word "Loc", meaning lucky. This is also a symbolic number for strength, showing advantages, and fortune in life. The Six Precious Scent Box includes 6 unique and fragrant cakes and a high-quality Oolong tea box is what Phuc Long wants to convey, believing that the gift given is also a wish for luck, peace to the loved ones on this Mid-Autumn Festival.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -294,10 +293,9 @@
                                         <img src="https://phuclong.com.vn/uploads/category/eaa44539edcb2c-tpgiv002hopgiayvuong5loaitra.png" alt="">
                                     </div>                
                                     <div class="left">
-                                        <h1>LỄ HỘP</h1>
-                                        <div class="sub-content">Bộ sản phẩm lễ hộp trà của Phúc Long thể hiện sự tinh tế và đẳng cấp trong từng chi tiết. Đây sẽ món quà biếu sang trọng, gửi trọn hương vị tươi ngon của những dòng trà thượng hạng đến với gia đình, bạn bè và đối tác.
-                                        </div>
-                                        <a href="#" class="chitiet">Xem chi tiết</a>
+                                        <h1>Gift Set</h1>
+                                        <div class="sub-content">Phuc Long's tea gift set products demonstrate sophistication and class in every detail. This will be a luxurious gift, delivering the fresh, delicious flavors of premium tea lines to family, friends, and partners.</div>
+                                        <a href="#" class="chitiet">View details</a>
                                     </div>
                                     <div class="clear-left"></div>
                                 </div>
@@ -306,6 +304,7 @@
                     </div>
                 </section>
             </div>
+    
 
                 <!---------------Footer-------------------->
                 <div class="footer">

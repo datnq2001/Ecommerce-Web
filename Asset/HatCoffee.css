@@ -113,7 +113,7 @@
 
 .Navigation-Coffee li{
     font-size: 1.35rem;
-    padding: .6rem 2rem;
+    padding: .6rem 1rem;
     cursor: pointer;
 }
 
@@ -153,6 +153,7 @@
 
 .Flex-Modal1{
     display: flex;
+    align-items: center;
 }
 
 .Flex-Modal1:not(:first-child){
@@ -164,14 +165,16 @@
     padding-top: 2.5rem;
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif;
+    font-family: 'Lora', serif;
+    text-align: justify;
 }
 
 .Flex-Modal1 .p2-Modal1{
     padding-left: 4rem;
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif;
+    font-family: 'Lora', serif;
+    text-align: justify;
 }
 
 .imgModal2{
@@ -659,6 +662,7 @@
     font-weight: 500;
     font-family: 'Lora', serif;
     color: rgb(68, 68, 68);
+    text-align: justify;
 }
 
 .p-ModalDamViRight{
@@ -667,6 +671,7 @@
     font-weight: 500;
     font-family: 'Lora', serif;
     color: rgb(68, 68, 68);
+    text-align: justify;
 }
 
 .h1-ModalDamViRight{

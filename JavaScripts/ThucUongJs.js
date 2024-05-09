@@ -139,8 +139,8 @@ function render(arrContainer){
   var arrFilter = [];
   for (let v of arrContainer) {
     let str = '<div class="Col-SanPham"><div class="Card" id="Card"><img class="card-img-top" src="' + v.img + '" alt="">' +
-    '<div class="card-body"><h5 class="card-title">' + v.name + '</h5><p class="card-text">' + v.price + '.000đ</p>' +
-    '<div><a id="' + v.id + '" type="submit" class="btnDatHang">Đặt Hàng</a></div></div></div></div>'
+    '<div class="card-body"><h5 class="card-title">' + v.name + '</h5><p class="card-text">' + v.price + ' AUD</p>' +
+    '<div><a id="' + v.id + '" type="submit" class="btnDatHang">BUY</a></div></div></div></div>'
     arrFilter.push(str);
   }
   var renderHtml = arrFilter.join('');
@@ -191,7 +191,7 @@ function UptoDown(arr){
 
   // -----Total Money-----//
   var totalMoney = 0;
-  DomID('TotalMoney').innerHTML = totalMoney + '.000đ';
+  DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
   // -----Total Money-----//
 
 
@@ -205,7 +205,7 @@ if(localStorage.getItem('sanPhamMua') !== null) {
   DomID('countStore').innerHTML = countCard;
 
   totalMoney = arrShowDetail.reduce((sum, e) => sum += e.price * e.count, 0);
-  DomID('TotalMoney').innerHTML = totalMoney + '.000đ';
+  DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
 }
 
 
@@ -219,7 +219,7 @@ function clickMuaSanPham(idCheck, arr){
 
     // -----Cộng Total Money-----//
     totalMoney += checkedSanPham.price;
-    DomID('TotalMoney').innerHTML = totalMoney + '.000đ';
+    DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
     // -----Cộng Total Money-----//
 
     if (arr.length > 0) {
@@ -277,7 +277,7 @@ function renderRemove() {
 
           // -----Trừ Total Money-----//
           totalMoney = totalMoney - findID.price * findID.count;
-          DomID('TotalMoney').innerHTML = totalMoney + '.000đ';
+          DomID('TotalMoney').innerHTML = totalMoney + ' AUD';
           // -----Trừ Total Money-----//
 
         for (let v of arrShowDetail) {

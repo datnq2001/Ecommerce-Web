@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -27,25 +28,39 @@
         <div class="Wrapper">
             <div class="header">
                 <div class="header-tab">
-                    <img style="width: 150px; height: 65px;" class="delivery" src="./img/Logo1.png" alt="">
+                    <img style="width: 150px; height: 65px;" src="./img/Logo1.png" alt="">
                     <img class="img-Logo position" style="width: 100px; height: 65px;" src="./img/Logo2.jpg" alt="">
                     <img class="img-LogoMid position" style="width: 100px; height: 65px;" src="./img/Logo3.png" alt="">
                     <img class="img-LogoBottom position" style="width: 100px; height: 65px;" src="./img/Logo4.png"
                         alt="">
                     <div class="group-AddCart">
-                        <a class="btn-Login" href="Login.html">Đăng Nhập</a>
+                        <a class="btn-Login" href="Login.html">Sign In</a>
                         <p class="space_Login-Cart">|</p>
                         <div class="group-AddCartHover">
-                            <div class="AddCart">Giỏ Hàng: <i class='fas fa-cart-arrow-down'
+                            <div class="AddCart">Cart: <i class='fas fa-cart-arrow-down'
                                     style='font-size:15px'></i><sup id="countStore"></sup>
                                 <ul class="sub-Cart">
                                     <li class="Detail">
-                                        <a>Giỏ Hàng Của Bạn</a>
-                                        <a href="#">Xem Chi Tiết</a>
+                                        <a>Your Cart</a>
+                                        <a href="#">View Details</a>
                                     </li>
-                                    <li class="TotalMoney" style="font-weight: bold; ">Tổng Tiền: <span
-                                            style="font-size: 2rem; color: rgb(255, 65, 65);">0đ</span></li>
-                                    <li class="buyProduct"><a href="#">Thanh Toán</a></li>
+                                    <div id="showSanPham">
+                                        <!-- <li class="show-SanPham">
+                                            <img src="./img/ImgThucUong/Bakery1.png" alt="">
+                                            <div class="showDetail-SanPham">
+                                                <h4>Bakery1</h4>
+                                                <p>30000đ</p>
+                                            </div>
+                                            <a id="XoaSanPham">x</a>
+                                            <button id="XoaSanPham">x</button>
+                                        </li> -->
+                                    </div>
+                                    <li class="TotalMoney" style="font-weight: bold; ">Total Money: 
+                                        <span id="TotalMoney"
+                                            style="font-size: 1.5rem; color: rgb(255, 65, 65);">
+                                        </span>
+                                    </li>
+                                    <li class="buyProduct"><a href="#">Checkout</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -53,56 +68,45 @@
                 </div>
                 <div class="Group-Navigator" id="GroupNavigator">
                     <ul class="Navigation" id="Navigation">
-                        <li class="Navigation-Option"><a href="index.html" id="trangChu" class="items">Trang Chủ</a>
-                        </li>
+                        <li class="Navigation-Option"><a href="index.html" class="items">Home</a></li>
                         <li class="Navigation-Option">
-                            <a href="HatCoffee.html" id="hatCoffee" class="items">Cà Phê</a>
+                            <a href="HatCoffee.html" id="hatCoffee" class="items">Coffee</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="HatCoffeeDamVi.html" class="sub-items">Hành
-                                        Trình Tách Cà Phê
-                                        Đậm Vị</a></li>
-                                <li class="sub-Navigation-Option"><a href="HatCoffee.html" class="sub-items">Hạt Cà Phê
-                                        Phúc Long</a>
+                                <li class="sub-Navigation-Option"><a href="HatCoffeeDamVi.html" class="sub-items">Journey of Rich Flavor Coffee</a></li>
+                                <li class="sub-Navigation-Option"><a href="HatCoffee.html" class="sub-items">Phuc Long Coffee Beans</a>
                                 </li>
-                                <li class="sub-Navigation-Option"><a href="HatCoffeePhaChe.html" class="sub-items">Nghệ
-                                        Thuật Pha Chế</a>
+                                <li class="sub-Navigation-Option"><a href="HatCoffeePhaChe.html" class="sub-items">Art of Brewing</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="Navigation-Option">
-                            <a href="" class="items">Trà</a>
+                            <a href="TraTruyenThong.html" class="items">Tea</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Hành Trình Tách Cà Phê
-                                        Đậm Vị</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Lá Trà Phúc Long</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Nghệ Thuật Pha Chế</a>
+                                <li class="sub-Navigation-Option"><a href="TraTruyenThong.html" class="sub-items">Journey of Rich Flavor Coffee</a></li>
+                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Phuc Long Tea Leaves</a></li>
+                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Art of Brewing</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="Navigation-Option">
-                            <a href="ThucUong.html" class="items">Thứ Uống</a>
+                            <a href="" id="thucUong" class="items">Drink</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Thức Uống</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Bánh Tráng Miệng</a></li>
-                                <li class="sub-Navigation-Option"><a href="" class="sub-items">Đồ Ăn Mặn</a></li>
+                                <li class="sub-Navigation-Option"><a href="ThucUong.html" class="sub-items">Drink</a></li>
+                                <li class="sub-Navigation-Option"><a href="BanhTrangMieng.html" class="sub-items">Desserts</a></li>
                             </ul>
                         </li>
-                        <li class="Navigation-Option"><a href="SanPham.html" class="items">Sản Phẩm</a>
+                        <li class="Navigation-Option"><a href="SanPham.html" class="items">Products</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="Tra.html" class="sub-items">Trà</a></li>
-                                <li class="sub-Navigation-Option"><a href="CaPhe.html" class="sub-items">Cà Phê</a></li>
+                                <li class="sub-Navigation-Option"><a href="Tra.html" class="sub-items">Tea</a></li>
+                                <li class="sub-Navigation-Option"><a href="CaPhe.html" class="sub-items">Coffee</a></li>
                             </ul>
                         </li>
-                        <li class="Navigation-Option"><a href="KhuyenMai.html" id="khuyenMai" class="items">Khuyến
-                                Mãi</a></li>
-                        <li class="Navigation-Option"><a href="VeChungToi.html" class="items">Về Chung Tôi</a>
+                        <li class="Navigation-Option"><a href="KhuyenMai.html" class="items">Promotions</a></li>
+                        <li class="Navigation-Option"><a href="VeChungToi.html" class="items">About Us</a>
                             <ul class="sub-menu">
-                                <li class="sub-Navigation-Option"><a href="TuyenDung.html" class="sub-items">Tuyển
-                                        Dụng</a></li>
-                                <li class="sub-Navigation-Option"><a href="ThuVien.html" class="sub-items">Thư Viện</a>
-                                </li>
-                                <li class="sub-Navigation-Option"><a href="LienHe.html" class="sub-items">Liên Hệ</a>
-                                </li>
+                                <li class="sub-Navigation-Option"><a href="TuyenDung.html" class="sub-items">Recruitment</a></li>
+                                <li class="sub-Navigation-Option"><a href="ThuVien.html" class="sub-items">Library</a></li>
+                                <li class="sub-Navigation-Option"><a href="LienHe.html" class="sub-items">Contact</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -114,86 +118,86 @@
                     <a href="#"><img src="https://phuclong.com.vn/uploads/banner/cd3215c2076ec1-banner.jpg"
                             class="banner" alt="" width="100%"></a>
                     <ul>
-                        <li><a href="index.html">Trang chủ</a></li>
-                        <li class="active"><a href="#">Thư viện</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">Library</a></li>
                     </ul>
                 </header>
-
+            
                 <section class="about-promotion">
                     <div class="wrapper">
                         <div class="title-heading">
                             <div style="text-align: center;">
-                                <div class="title-content">HÌNH ẢNH</div>
-                                <div class="title-content">VIDEO</div>
+                                <div class="title-content">IMAGES</div>
+                                <div class="title-content">VIDEOS</div>
                             </div>
                             <div class="directIcon">
                                 <i class='fas fa-seedling' style='font-size:36px'></i>
                             </div>
                             <div style="text-align: center;">
-                                <div class="option-title" onclick="PageImg(1)">HÌNH ẢNH</div>
-                                <div class="option-title" onclick="PageImg(2)">VIDEO</div>
+                                <div class="option-title" onclick="PageImg(1)">IMAGES</div>
+                                <div class="option-title" onclick="PageImg(2)">VIDEOS</div>
                             </div>
                         </div>
                         <div class="grid-container">
-                            <div id="grid-content" class="hinhanh">
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA1.jpg" alt="">
                                 <div class="list_meta">
                                     <span>28/09/2018</span>
                                 </div>
-                                <div class="list_title">Mừng sinh nhật Phúc Long 29 Ngô Đức Kế tròn 5 tuổi</div>
+                                <div class="list_title">Celebrating Phuc Long 29 Ngo Duc Ke's 5th Birthday</div>
                             </div>
-
-
-                            <div id="grid-content" class="hinhanh">
+            
+            
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA2.jpg" alt="">
                                 <div class="list_meta">
                                     <span>27/09/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Vincom Quang Trung</div>
+                                <div class="list_title">Grand Opening of Phuc Long Vincom Quang Trung</div>
                             </div>
-
-                            <div id="grid-content" class="hinhanh">
+            
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA3.jpg" alt="">
                                 <div class="list_meta">
                                     <span>27/09/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Sky Garden</div>
+                                <div class="list_title">Grand Opening of Phuc Long Sky Garden</div>
                             </div>
-
-                            <div id="grid-content" class="hinhanh">
+            
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA4.jpg" alt="">
                                 <div class="list_meta">
                                     <span>02/08/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Bệnh viện Nhi đồng Thành Phố</div>
+                                <div class="list_title">Grand Opening of Phuc Long Children's Hospital</div>
                             </div>
-
-                            <div id="grid-content" class="hinhanh">
+            
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA5.jpg" alt="">
                                 <div class="list_meta">
                                     <span>02/08/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Nguyễn Văn Linh - Đà Nẵng</div>
+                                <div class="list_title">Grand Opening of Phuc Long Nguyen Van Linh - Da Nang</div>
                             </div>
-
-                            <div id="grid-content" class="hinhanh">
+            
+                            <div id="grid-content" class="images">
                                 <img src="./img/ThuVien/HA6.jpg" alt="">
                                 <div class="list_meta">
                                     <span>02/08/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long The Landmark 81</div>
+                                <div class="list_title">Grand Opening of Phuc Long The Landmark 81</div>
                             </div>
-
-                            <div id="grid-content" class="clip">
+            
+                            <div id="grid-content" class="videos">
                                 <img src="./img/ThuVien/CLIP1.jpg" alt="">
                                 <div class="list_meta">
-                                    <span>21/08/2019</span>
+                                    <span>08/21/2019</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Vincom Quang Trung</div>
+                                <div class="list_title">Grand Opening of Phuc Long Vincom Quang Trung</div>
                                 <div class="icon-video"><i class='far fa-play-circle'></i></div>
                             </div>
-
-                            <div id="grid-content" class="clip">
+            
+                            <div id="grid-content" class="videos">
                                 <img src="./img/ThuVien/CLIP2.jpg" alt="">
                                 <div class="list_meta">
                                     <span>02/08/2018</span>
@@ -201,8 +205,8 @@
                                 <div class="list_title">Tea of Love</div>
                                 <div class="icon-video"><i class='far fa-play-circle'></i></div>
                             </div>
-
-                            <div id="grid-content" class="clip">
+            
+                            <div id="grid-content" class="videos">
                                 <img src="./img/ThuVien/CLIP3.jpg" alt="">
                                 <div class="list_meta">
                                     <span>02/08/2018</span>
@@ -210,17 +214,15 @@
                                 <div class="list_title">Phuc Long moon cakes</div>
                                 <div class="icon-video"><i class='far fa-play-circle'></i></div>
                             </div>
-
-                            <div id="grid-content" class="clip">
+            
+                            <div id="grid-content" class="videos">
                                 <img src="./img/ThuVien/CLIP4.jpg" alt="">
                                 <div class="list_meta">
                                     <span>2/08/2018</span>
                                 </div>
-                                <div class="list_title">Mừng khai trương Phúc Long Sky Garden</div>
+                                <div class="list_title">Grand Opening of Phuc Long Sky Garden</div>
                                 <div class="icon-video"><i class='far fa-play-circle'></i></div>
                             </div>
-
-        
                         </div>
                     </div>
                 </section>

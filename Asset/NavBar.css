@@ -36,55 +36,6 @@
         transition: all 0.5s;
     }
     
-    /* ---------------Code Từ Trên Top Nhảy Xuống---------------- */
-    /* .nav-checkbox:checked ~ .lb-icon .icon-front{
-        opacity: 0;
-    }
-    
-    .nav-checkbox:checked ~ .lb-icon .icon-back{
-        opacity: 1;
-        animation-name: moveTop;
-        animation-duration: 0.3s;
-        animation-timing-function: ease-in-out;
-    }
-    
-    .icon-back{
-        animation-name: moveTop1;
-        animation-duration: 0.3s;
-        animation-timing-function: ease-in-out;
-    }
-    
-    
-    @keyframes moveTop{
-        0%{
-            transform: translateY(-3rem);
-            opacity: 0;
-        }
-        80%{
-            transform: translateY(-2rem);
-            opacity: 0;
-        }
-        100%{
-            transform: translateY(0rem);
-            opacity: 1;
-        }
-    }
-    
-    @keyframes moveTop1{
-        0%{
-            transform: translateY(0rem);
-            opacity: 1;
-        }
-        80%{
-            transform: translateY(-2rem);
-            opacity: 0;
-        }
-        100%{
-            transform: translateY(-3rem);
-            opacity: 0;
-        }
-    } */
-    /* ---------------Code Từ Trên Top Nhảy Xuống---------------- */
     
     .nav-checkbox:checked ~ .lb-icon .icon-front{
         transform: rotateY(-180deg);

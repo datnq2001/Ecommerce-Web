@@ -43,7 +43,7 @@ function render(value) {
     for (let v of value) {
         let sanpham = '<div class="product"> <div class="product-img"><img src="' + v.img + '" alt=""></div>' +
             '<div class="product-title">' + v.name + '</div><div class="product-desc">' + v.desc + '</div><div class="product-price">' + v.price + '.000 đ</div>' +
-            '<div class="product-button"><input type="button" value="Đặt hàng" class="button-buy"> </div></div>';
+            '<div class="product-button"><input type="button" value="BUY" class="button-buy"> </div></div>';
         showSanPham.push(sanpham);
     }
     var renderHTML = showSanPham.join('');
