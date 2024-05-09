@@ -3,10 +3,10 @@
 }
 
 .group-Banner{
-    background-image: url(/img/HatCoffee1.jpg);
+    background-image: url('https://phuclong.com.vn/uploads/category/aa17dafb29b433-cphphclong3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 45rem;
+    height: 37rem;
     width: 100%;
 }
 
@@ -29,18 +29,18 @@
 }
 
 .position1{
-    left: 29%;
+    left: 9%;
     animation-name: fade;
     
 }
 
 .position2{
-    left: 36%;
+    left: 16%;
     animation-name: fade2;
 }
 
 .position3{
-    left: 36%;
+    left: 16%;
     animation-name: fade3;
 }
 
