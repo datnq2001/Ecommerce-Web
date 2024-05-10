@@ -110,7 +110,7 @@
                 </div>
 
                 <div class="container container-Content-Tra">
-                    <img src="./img/imgTrangChu1.jpg" alt="">
+                    <img class="Content-Tra__img" src="./img/imgTrangChu1.jpg" alt="">
                     <div class="Content-Tra">
                         <h4>FROM TEA SEEDLINGS, WE CULTIVATE PASSION</h4>
                         <p>With over 50 years of refining the essence from the finest green tea buds and premium coffee beans, alongside the desire to provide customers with the most valuable experiences, Phuc Long has continuously been a pioneering brand with many innovative ideas leading the tea and coffee industry.</p>
@@ -214,7 +214,39 @@
     <script src="./JavaScripts/active.js"></script>
     <script src="./JavaScripts/include.js"></script>
     <script src="./JavaScripts/Sticky.js"></script>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    if (entry.target.classList.contains('Content-Tra__img') || entry.target.classList.contains('Content-Staff')) {
+                        entry.target.classList.remove('slideOutToLeft');
+                        entry.target.classList.add('slideInFromLeft');
+                    } else if (entry.target.classList.contains('Content-Tra') || entry.target.classList.contains('img-Staff')) {
+                        entry.target.classList.remove('slideOutToRight');
+                        entry.target.classList.add('slideInFromRight');
+                    }
+                } else {
+                    if (entry.target.classList.contains('Content-Tra__img') || entry.target.classList.contains('Content-Staff')) {
+                        entry.target.classList.remove('slideInFromLeft');
+                        entry.target.classList.add('slideOutToLeft');
+                    } else if (entry.target.classList.contains('Content-Tra') || entry.target.classList.contains('img-Staff')) {
+                        entry.target.classList.remove('slideInFromRight');
+                        entry.target.classList.add('slideOutToRight');
+                    }
+                }
+            });
+        });
 
+        const imgElement = document.querySelector('.Content-Tra__img');
+        const contentElement = document.querySelector('.Content-Tra');
+        const imgStaffElement = document.querySelector('.img-Staff');
+        const contentStaffElement = document.querySelector('.Content-Staff');
+
+        observer.observe(imgElement);
+        observer.observe(contentElement);
+        observer.observe(imgStaffElement);
+        observer.observe(contentStaffElement);
+    </script>
 </body>
 
 </html>

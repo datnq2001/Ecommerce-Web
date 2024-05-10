@@ -177,4 +177,117 @@ section .wrapper{
     background-color: #0C713D;
     color: whitesmoke;
 }
+@media screen and (max-width:900px) {
+    .content-tra, .content-caphe, .content-banh, .content-qua {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 200px;
+        padding-top: 50px;
+        animation: fadein;
+        animation-duration: 0.7s;
+        animation-timing-function: ease-in-out;
+    }
+    .content-left, .content-right {
+        float: none;
+        background-image: url(/img/backgroundImgCoffee.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 450px;
+        height: 350px;
+        margin: auto;
+        position: relative;
+    }
+    .right, .left {
+        width: 45%;
+        margin: auto;
+    }
+    .right h1, .left h1 {
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        height: 70px;
+        background: white;
+        }
+    .position{
+        left: 38%;
+    }
+    .group-Banner {
+        background-size: cover;
+        height: 22rem;
+        width: 100%;
+    }
 
+    .groupHatCoffee {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 4rem;
+    }
+
+    .groupSearch-Sort {
+        width: 80%;
+        margin: auto;
+        display: block;
+        padding: 1rem 2rem;
+        border: 1px solid rgb(184, 184, 184);
+    }
+
+    .group-Sort {
+        padding-bottom: 2rem;
+    }
+
+    .boderPhanChia {
+        display: none;
+    }
+
+    .img-delivery{
+        display: none;
+    }
+
+    .Wrapper-SanPham{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        margin: auto;
+    }
+
+    .Col-SanPham {
+        padding: 2rem 0;
+        width: 70%;
+        margin: auto;
+        
+    }
+    
+    .group-AddCart {
+        display: flex;
+        position: absolute;
+        top: 12px;
+        right: 11.2px;
+    }
+
+    .group-AddCart .group-AddCartHover .AddCart > .sub-Cart {
+        display: none;
+        width: 20rem;
+        position: absolute;
+        
+        border: 1px solid rgb(184, 184, 184);
+    }
+
+    #showSanPham {
+        width: 20rem;
+    }
+
+    .btn-Login{
+        display: none;
+    }
+
+    .space_Login-Cart{
+        display: none;
+    }
+
+}

@@ -342,12 +342,23 @@ h5{
 /* ---------------------------------------Show Sản Phẩm--------------------------------------- */
 
 
-@media screen and (max-width:514px) {
 
+@media screen and (max-width:900px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        height: 70px;
+        background: white;
+        }
+    .position{
+        left: 38%;
+    }
     .group-Banner {
         background-size: cover;
         height: 22rem;
         width: 100%;
+        background-position: center;
     }
 
     .groupHatCoffee {
@@ -372,7 +383,7 @@ h5{
         display: none;
     }
 
-    .position{
+    .img-delivery{
         display: none;
     }
 
@@ -387,21 +398,21 @@ h5{
         padding: 2rem 0;
         width: 70%;
         margin: auto;
+        
     }
     
-    .group-AddCart{
+    .group-AddCart {
         display: flex;
         position: absolute;
-        top: 5rem;
-        left: 0;
+        top: 12px;
+        right: 11.2px;
     }
 
     .group-AddCart .group-AddCartHover .AddCart > .sub-Cart {
         display: none;
         width: 20rem;
         position: absolute;
-        left: 1rem;
-        top: 3.1em;
+        
         border: 1px solid rgb(184, 184, 184);
     }
 

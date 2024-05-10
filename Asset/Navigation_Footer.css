@@ -548,3 +548,17 @@ footer i:hover{
 .colorSticky{
     color: rgb(87, 87, 87);
 }
+@media screen and (max-width:900px) {
+    .group-AddCart .group-AddCartHover .AddCart > .sub-Cart {
+        display: none;
+        width: 25rem;
+        position: absolute;
+        right: 0px;
+        left:auto;
+        top: 3.1em;
+        box-shadow: 4px 4px 4px rgb(172, 172, 172), -1px 4px 4px rgb(172, 172, 172);
+        padding: 2.5rem 1rem;
+        background-color: #ffffff;
+        z-index: 999;
+    }
+}
