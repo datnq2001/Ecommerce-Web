@@ -23,21 +23,21 @@ console.log(strLi);
 activeNavigation('index.html', 'trangChu');
 activeNavigationBar('index.html', 'trangChuNav');
 
-activeNavigation('HatCoffee.html', 'hatCoffee');
-activeNavigation('HatCoffeeDamVi.html', 'hatCoffee');
-activeNavigation('HatCoffeePhaChe.html', 'hatCoffee');
-activeNavigationBar('HatCoffee.html', 'hatCoffeeNav');
+activeNavigation('CoffeeBean.html', 'hatCoffee');
+activeNavigation('StrongFlavorCoffee.html', 'hatCoffee');
+activeNavigation('BrewCoffee.html', 'hatCoffee');
+activeNavigationBar('CoffeeBean.html', 'hatCoffeeNav');
 
-activeNavigation('TraTruyenThong.html', 'traDamVi');
-activeNavigationBar('TraTruyenThong.html', 'traDamViNav');
+activeNavigation('TraditionalTea.html', 'traDamVi');
+activeNavigationBar('TraditionalTea.html', 'traDamViNav');
 
 
-activeNavigation('KhuyenMai.html', 'khuyenMai');
-activeNavigationBar('KhuyenMai.html', 'khuyenMaiNav');
+activeNavigation('Promotion.html', 'khuyenMai');
+activeNavigationBar('Promotion.html', 'khuyenMaiNav');
 
-activeNavigation('ThucUong.html', 'thucUong');
-activeNavigationBar('ThucUong.html', 'thucUongNav');
-activeNavigation('BanhTrangMieng.html', 'thucUong');
+activeNavigation('Drink.html', 'thucUong');
+activeNavigationBar('Drink.html', 'thucUongNav');
+activeNavigation('Dessert.html', 'thucUong');
 
 function activeNavigation(addressHref, id){
     if (str == addressHref){
